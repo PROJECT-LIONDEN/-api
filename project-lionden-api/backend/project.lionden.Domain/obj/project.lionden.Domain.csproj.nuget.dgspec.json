@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ryanb\\OneDrive\\Desktop\\repos\\project-lionden-api\\backend\\project.lionden.Domain\\project.lionden.Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ryanb\\OneDrive\\Desktop\\repos\\project-lionden-api\\backend\\project.lionden.Domain\\project.lionden.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ryanb\\OneDrive\\Desktop\\repos\\project-lionden-api\\backend\\project.lionden.Domain\\project.lionden.Domain.csproj",
+        "projectName": "project.lionden.Domain",
+        "projectPath": "C:\\Users\\ryanb\\OneDrive\\Desktop\\repos\\project-lionden-api\\backend\\project.lionden.Domain\\project.lionden.Domain.csproj",
+        "packagesPath": "C:\\Users\\ryanb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ryanb\\OneDrive\\Desktop\\repos\\project-lionden-api\\backend\\project.lionden.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ryanb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
