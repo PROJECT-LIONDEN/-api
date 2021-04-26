@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>project_lionden.Domain.Tests</RootNamespace>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<ProjectReference Include="..\project-lionden.Domain\project-lionden.Domain.csproj" />
+</ItemGroup>
+
+</Project>
