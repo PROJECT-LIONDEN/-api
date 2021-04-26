@@ -35,11 +35,20 @@ namespace project.lionden.Api
         {
             c.SwaggerDoc("v1" , new OpenApiInfo { Title = "project.lionden.Api" , Version = "v1"});
         });
+        services.AddCors(options =>
+        {
+	        options.AddDefaultPolicy(builder =>
+	        {
+		        builder.WithOrigins("*");
+	        });
+        });
+
     }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors();
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
